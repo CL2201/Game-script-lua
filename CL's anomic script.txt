@@ -1868,3 +1868,4 @@ local function ZLZHHA_fake_script() -- Frame.LocalScript
 	
 end
 coroutine.wrap(ZLZHHA_fake_script)()
+game.StarterGui:SetCore("SendNotification", {Title = "CL2201's Anomic script", Text = "Script loaded successfully!", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "Okay!"})
