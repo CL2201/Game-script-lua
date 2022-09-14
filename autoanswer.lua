@@ -1,3 +1,4 @@
+getgenv().sayanswer = false --Broadcast answer to other players [true/false]
 local hint = game:GetService("ReplicatedStorage").HintAnswer
 local subanswer = game:GetService("ReplicatedStorage").SubmittedAnswer
 local chatremote = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
